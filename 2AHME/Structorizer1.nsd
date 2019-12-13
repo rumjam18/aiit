@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;Start des Programmes&#34;" comment="" color="ffffff" type="program" style="abbr">
+	<children>
+		<instruction text="&#34;Variable DOUBLE festlegen&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Variable CHAR  festlegen&#34;" comment="" color="80ff80" rotated="0"></instruction>
+		<instruction text="&#34;               Textausgabe&#34;,&#34;UE_04 Rechner Fuer Umsatzsteuer&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34; Textausgabe&#34;,&#34;Gezahlt wurde:&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;         Eingabefestlegung&#34;,&#34;                Tastertur&#34;,&#34;für Char s mit der Größe 100&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;Zahlenwerte umwandeln&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;   Wert&#34;,&#34;   &#62;0&#34;" comment="" color="ffffff">
+			<qTrue>
+				<instruction text="&#34;Variablenrechnung&#34;,&#34;   steuer=gezahlt&#34;,&#34;       1.2*0.2&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;   Textausgabe:&#34;,&#34;Steuer=Zahlenwert&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;       Textausgabe&#34;,&#34;Fehlerhafte Eingabe&#34;" comment="" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+		<instruction text="&#34;Ende des Programmes&#34;" comment="" color="ffffff" rotated="0"></instruction>
+	</children>
+</root>
