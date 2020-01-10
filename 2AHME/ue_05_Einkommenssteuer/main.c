@@ -12,6 +12,7 @@ int main ()
   printf("UE05 Einkommenessteuer\n");
   printf("--------------------\n");
   
+  printf("Verfügbares Einkommen")
   fgets(s, 80, stdin);
   sscanf(s,  "%lf", &einkommen);
   if(einkommen < 0);{
