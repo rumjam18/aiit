@@ -12,10 +12,11 @@ int main ()
   printf("UE05 Einkommenessteuer\n");
   printf("--------------------\n");
   
-  printf("Verfügbares Einkommen")
+  printf("Verfügbares Einkommen: ");
   fgets(s, 80, stdin);
   sscanf(s,  "%lf", &einkommen);
-  if(einkommen < 0);{
+  if(einkommen < 0)
+  {
   printf("Eingabefehler\n");
   return 1;
 }
@@ -44,10 +45,13 @@ int main ()
     
   } else {
     steuer = 0;
+    
   } 
+  printf("Steuer: %.2f", steuer );
         
       
   
   return 0;
+
 }
 
