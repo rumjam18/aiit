@@ -66,3 +66,7 @@ dkms.conf
 /2AHME/ue06_schleifen/build/
 /2AHME/ue07_spannungsteiler/build/
 /2AHME/ue07_spannungsteiler/dist/
+/2AHME/ue08_funktionen/dist/
+/2AHME/ue08_funktionen/build/
+/2AHME/ue09_spannungsteiler2/build/
+/2AHME/ue09_spannungsteiler2/dist/
