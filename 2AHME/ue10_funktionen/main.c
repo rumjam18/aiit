@@ -10,7 +10,7 @@ double getInputDoubleValue (char text[]) {
       printf("%s", text);
       fgets(s, 100, stdin);
       n = sscanf(s, "%lf", &rv);
-    }while ( n !=1 );
+  } while ( n != 1 );
     return rv;
 }
 
@@ -19,7 +19,7 @@ double getPositiveDoubleInputValue (char text[]) {
   
   do {
     f1 = getInputDoubleValue (text);
-}while (f1 < 0 );
+ } while (f1 < 0 );
 
   return f1;
 }
