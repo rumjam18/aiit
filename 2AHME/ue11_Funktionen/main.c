@@ -27,7 +27,7 @@ double getInputDoubleValue (char text[]) {
 int getSelectMenu () {
   double rv;
   
-  do{
+  do {
     
     printf("-------------------------");
     printf("1 ... Wuerfel");
@@ -40,7 +40,7 @@ int getSelectMenu () {
    } while ( rv <= 1 && rv >= 4);
     return rv;
 }
-double calcCube (); {
+double calcCube () {
   double l;
   printf("Würfel\n");
   
@@ -58,7 +58,7 @@ double calcCube (); {
   return 0;
   }
                    
-double calcCuboid (); {
+double calcCuboid () {
   double l;
   double b;
   double h;
@@ -70,12 +70,12 @@ double calcCuboid (); {
     
   } while (l < 0);
   
-  do{
+  do {
     b = getInputDoubleValue("Breite: ");
     
   } while (b < 0);
   
-  do{
+  do {
     h = getInputDoubleValue ("Höhe: ");
     
   } while (h < 0);
@@ -90,7 +90,7 @@ double calcCuboid (); {
   return 0;
   }
   
-double calcSphere (); {
+double calcSphere () {
   double d;
   printf("Kugel\n");
   
@@ -111,16 +111,32 @@ double calcSphere (); {
 
 int main ()
 {
-  int wahl = getSelectedMenu();
-  while (1 == 1) {
-  switch (wahl) {
+  printf("UE11 - Körperberechnung mit Menüfunktionen\n\n");
   
-  case 1: calcCube(); break;
-  case 2: calcCuboid(); break;
-  case 3: calcSphere(); break;
-  case 4: return 0;
+  while ( 1 == 1 ) {
+    printf("-----------------------------------------------");
+    
+    int wahl;
+    
+    wahl = getSelectMenu();
+    
+    switch (wahl); {
+  
+    case 1: {
+      calcCube(); 
+      break; }
+  
+    case 2: {
+      calcCuboid(); 
+      break; }
+  
+    case 3: {
+      calcSphere(); 
+      break; }
+  
+    case 4: {
+      return 0;}
   }  
   }
-  return 0;
 }
 
