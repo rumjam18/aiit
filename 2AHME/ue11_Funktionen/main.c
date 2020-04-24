@@ -110,18 +110,18 @@ double calcSphere () {
     return 0;
   }
 
-int main ()
-{
+int main () {
+
   printf("UE11 - Körperberechnung mit Menüfunktionen\n\n");
-  
+  {
   while ( 1 == 1 ) {
-  printf("-----------------------------------------------");
+    printf("-----------------------------------------------");
     
-  int wahl;
+    int wahl;
     
-  wahl = getSelectMenu();
+    wahl = getSelectMenu();
     
-  switch (wahl); {
+    switch (wahl) {
   
     case 1: {
       calcCube(); 
