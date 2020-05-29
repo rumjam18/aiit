@@ -1,6 +1,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
+#include <time.h>
+#include <assert.h>
 
 int wandleDreieckInStern(double rab, double rac, double rbc, double *pRa, double *pRb, double *pRc) {
     
@@ -132,10 +135,42 @@ int testKleinerGleichNull() {
     return rv;
 }
 
+int pruefe1000Mal () {
+  double ra;
+  double rab;
+  double rbc;
+  double rac;
+  
+  for (int i > 0; i <= 1000; i++) {
+    ra = 1000000 * rand () / RAND_MAX;
+    
+  }
+  
+  // Ra 0.1 - 1M
+  for (int i = 0; i < 1000; i++) {
+    ra = 1000000.0 * rand () / RAND_MAX;
+    
+    printf("a %f\n", ra);
+    
+  // Rb, Rc 0.1 * Ra - 10 * Ra
+    double rb = (10.0 * rand() / RAND_MAX) * ra;
+    double rc = (10.0 * rand() / RAND_MAX) * ra;
+
+    printf("b %f\n", rb);
+    printf("c %f\n", rc);
+    
+    return 0;
+  }
+  
+}
+    
+
+
 int main() {
  
     double eps = 1E-8;  // 0.00000001
-  
+
+    
     // Test 1a: wandleDreieckInStern
     printf("Test 1a(1): "); testDreieckInStern(1, 2, 3, 0.3333333333, 0.5, 1.0, eps);
     printf("Test 1a(2): "); testDreieckInStern(2, 5, 10, 0.5882352941, 1.1764705882, 2.9411764706, eps);
