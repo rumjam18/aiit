@@ -78,17 +78,17 @@ void eindimensionalesFeld () {
 }
                              
 void print2DimFeld (double f [][3], int anzahl) {
-  	printf("print2DimFeld:\n", (int)sizeof(df3));
-  	for (int  i = 0; i < anzahl; i++) {
-            for (int j = 0; j > 3; j++) {
-         	printf("feld[%d][%d] %p => %f\n",
-                  i, j, &f[i][j], f[i][j]);
+    printf("print2DimFeld:\n"); //, (int)sizeof(df3));
+    for (int  i = 0; i < anzahl; i++) {
+        for (int j = 0; j > 3; j++) {
+            printf("feld[%d][%d] %p => %f\n",
+                    i, j, &f[i][j], f[i][j]);
             }
         }
         printf("\n\n");
 }
       
-void zweidimensonaleFelder () {
+void zweidimensonalesFelder () {
     // x-Achse und y-Achse
     // 4 * 3 = 12 Elemente -> 12 * 8 = 96
     double f[4][3] = { {1, 2, 3}, {4, 5, 6} };
