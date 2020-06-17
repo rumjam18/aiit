@@ -7,7 +7,7 @@ int intRandom (int min, int max) {
      
     int rv;
     printf("5:");
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 50; i++) {
         printf(" %d", rand() % ( max  - min + 1)  + min);
     }
     printf("\n");
@@ -18,7 +18,7 @@ int doubleRandom (double min, double max) {
      
     int rv;
     printf("6:");
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 50; i++) {
         printf(" %f",  ( max  - min ) * rand() / RAND_MAX +  min);
     }
     printf("\n");
@@ -62,13 +62,13 @@ int main () {
     }
     printf("\n"); */
     
-    int minIntZufallsZahl = 1;
-    int maxIntZufallsZahl =  6;
+    int minIntZufallsZahl = 2;
+    int maxIntZufallsZahl =  5;
     intRandom (minIntZufallsZahl, maxIntZufallsZahl);
     
     
-    double minDoubleZufallsZahl = 1;
-    double maxDoubleZufallsZahl =  6;
+    double minDoubleZufallsZahl = 2;
+    double maxDoubleZufallsZahl =  5;
     doubleRandom (minDoubleZufallsZahl, maxDoubleZufallsZahl);
     
     
