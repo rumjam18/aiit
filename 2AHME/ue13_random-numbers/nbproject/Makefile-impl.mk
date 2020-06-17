@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Übung2.1
+PROJECTNAME=ue13_random-numbers
 
 # Active Configuration
 DEFAULTCONF=Debug

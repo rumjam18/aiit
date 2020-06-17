@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=_bung2.1
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/_bung2.1
+CND_ARTIFACT_NAME_Debug=ue13_random-numbers
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/ue13_random-numbers
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=übung2.1.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/übung2.1.tar
+CND_PACKAGE_NAME_Debug=ue13random-numbers.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/ue13random-numbers.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=_bung2.1
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/_bung2.1
+CND_ARTIFACT_NAME_Release=ue13_random-numbers
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/ue13_random-numbers
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=übung2.1.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/übung2.1.tar
+CND_PACKAGE_NAME_Release=ue13random-numbers.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/ue13random-numbers.tar
 #
 # include compiler specific variables
 #
