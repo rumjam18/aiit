@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=ue16_rechnenmitbr_chen
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/ue16_rechnenmitbr_chen
+CND_ARTIFACT_NAME_Debug=ue17_felder
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/ue17_felder
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=ue16rechnenmitbrüchen.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/ue16rechnenmitbrüchen.tar
+CND_PACKAGE_NAME_Debug=ue17felder.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/ue17felder.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=ue16_rechnenmitbr_chen
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/ue16_rechnenmitbr_chen
+CND_ARTIFACT_NAME_Release=ue17_felder
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/ue17_felder
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=ue16rechnenmitbrüchen.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/ue16rechnenmitbrüchen.tar
+CND_PACKAGE_NAME_Release=ue17felder.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/ue17felder.tar
 #
 # include compiler specific variables
 #
