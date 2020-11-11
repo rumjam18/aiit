@@ -30,7 +30,7 @@ int gibZahlenEin(double f[]) {
   
 }
 
-double berechneMittelwert(double f[], int anzahl) {
+double berechneMittelwert(double f[], int anzahl) { //nicht korrekt
   
   double mittlererWert;
   double aS;
